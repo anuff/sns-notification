@@ -4,7 +4,7 @@ import boto3
 app = Flask(__name__)
 
 # Initialize SNS client
-topic_arn = "YOUR_SNS_TOPIC_ARN"  # Replace with your SNS topic ARN
+topic_arn = "arn:aws:sns:us-east-1:298550178949:Mytopic"  # Replace with your SNS topic ARN
 sns_client = boto3.client("sns")
 
 # Route for the home page
